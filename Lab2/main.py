@@ -10,8 +10,8 @@ import string
 # #     else:
 # #         print(".", end="")
 # # print()
-# print("".join("|"*({i, j} in dna) + "."*({i, j} not in dna) for i, j in zip(dna1, dna2)))   # Nie moje ;c prowadzacego
-# print("".join("|" if {i, j} in dna else "." for i, j in zip(dna1, dna2)))                   # Prawie moje, ale nie do konca
+# print("".join("|"*({i, j} in dna) + "."*({i, j} not in dna) for i, j in zip(dna1, dna2))) 
+# print("".join("|" if {i, j} in dna else "." for i, j in zip(dna1, dna2)))                 
 # print(dna2)
 
 # dna1 = "ATCATTGACGATGGAT"   # T - A, C - G
